@@ -81,8 +81,8 @@ user_groups:
 
 Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, [LIMSI](https://www.limsi.fr/en/) research center, since September 2018.  
 
-She received a PhD in Computer Science from Le Mans University in Septembre 2017.  Her thesis work is part of the ANR [VERA](https://anr.fr/Project-ANR-12-BS02-0006) (AdVanced ERror Analysis for speech recognition) project. 
-During her PhD, she spent a few months as visiting researcher at Apple within the Siri Speech team.  
+She received a PhD in Computer Science from Le Mans University on Septembre 2017.  Her thesis work is part of the ANR [VERA](https://anr.fr/Project-ANR-12-BS02-0006) (AdVanced ERror Analysis for speech recognition) project. 
+During her PhD, she spent a few months as @ visiting researcher at Apple within the Siri Speech team.  
 
  As a postdoctoral researcher at [LIUM](https://lium.univ-lemans.fr), she worked on neural end-to-end systems for the detection of named entities, speech understanding, as  part of the Chist-Era [M2CR](https://projets-lium.univ-lemans.fr/m2cr/) (Multimodal Multilingual Continuous Representation for Human Language Understanding) project. 
 

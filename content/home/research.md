@@ -47,7 +47,7 @@ subtitle = ""
  css_class = ""
 +++
 
-My research interests are continuous representations and their application to natural languge processing and speech recognintion tasks like ASR error detection, natural/spoken languge understanding, etc. I am also interested to sementic textual similarity task and its application to dialog system, in addition to end-to-end neural systems for speech understanding.
+My research interests are continuous representations and their application to natural language processing and speech recognition tasks like ASR error detection, natural/spoken language understanding, etc. I am also interested to sementic textual similarity task and its application to dialog system, in addition to end-to-end neural systems for speech understanding.
 
 # Students
 
@@ -56,7 +56,7 @@ My research interests are continuous representations and their application to na
 
 # Projects
 
-- [LIHLITH](http://ixa2.si.ehu.es/lihlith/) (Chist-Era), 2018/10/01-
+- [LIHLITH](http://ixa2.si.ehu.es/lihlith/) (Chist-Era), 2018/10/01-2020-12/31
 - MeerQat (ANR)
 - GEM (ANR)
 - AIDA (PSPC)
