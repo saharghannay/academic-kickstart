@@ -4,7 +4,7 @@ name: Sahar Ghannay
 
 # Username (this should match the folder name)
 authors:
-- admin
+- sahar
 
 # Is this the primary user of the site?
 superuser: true
@@ -18,8 +18,8 @@ organizations:
   url: "https://www.limsi.fr/en/"
 
 # Short bio (displayed in user profile at end of posts)
-#bio: Sahar Ghannay is an associate professor at LIMSI, CNRS Université Paris-Saclay  since September 2018. She received a PhD in Computer Science, intitled « A study of continuous word representations applied to ASR error detection », from Le Mans University in Septembre 2017. Sahar has the opportuniy to do an internship at Apple whithin the Siri Speech team under the direction of Xiaochuan Niu and Ilya Oparin. Her main research interests are continuous word representations and their application to natural languge processing and speech recognintion tasks like ASR error detection, natural/spoken languge understanding, etc. She is also interested to sementic textual similarity task and its application to dialog system, in addiiton to end-to-end neural systems for speech understanding, etc.
-#My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks. She is also interested in semantic textual similarity task and its application to dialog system. 
+
 
 interests:
 - Artificial Intelligence
