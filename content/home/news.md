@@ -115,7 +115,7 @@ BSc level (L2, L3 (Engineering school)) PS, Le Mans University, Computer Science
   - BSc level (L2, L3 (Engineering school))
   - design of a relational database, implementation and operation of a database in SQL
 
-<span style="color:FireBrick">  **Logique programming** <span>
+<span style="color:FireBrick">  **Logic programming** <span>
 
 BSc level (L2, L3) course, PS, Le Mans University, Computer Science Department
   - 2016-2018  

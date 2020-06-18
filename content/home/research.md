@@ -51,7 +51,7 @@ My research interests are continuous representations and their application to na
 
 # Students
 
-- Juan Manuel Coria, PHD student, "Active representation learning"
+- [Juan Manuel Coria](https://juanmc2005.github.io/), PHD student, "Active representation learning"
 - Valentin Carpentier, PHD student, "A Study of transfer learning approaches for entity linking on new domain and generated synthetic data" 
 
 # Projects
