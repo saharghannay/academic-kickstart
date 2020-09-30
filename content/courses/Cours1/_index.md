@@ -13,7 +13,7 @@ menu:
     name: Semantic Representations
     weight: 1
 ---
-Master 2 [course](https://github.com/saharghannay/lectures/blob/master/Master%20ISD/Cours_MasterISD.pdf), Université Paris-Saclay, IUT Orsay, Computer Science Department
+Master 2 {{% staticref "files/Cours_MasterISD.pdf" "newtab" %}} course {{% /staticref %}}, Université Paris-Saclay, IUT Orsay, Computer Science Department
   - 2018-2020 
   - MSc level (M2)
   - Introduction to distributed representations, recent approaches, evaluation approaches 
