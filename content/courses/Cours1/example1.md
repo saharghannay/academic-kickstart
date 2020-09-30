@@ -20,8 +20,8 @@ weight: 1
 
 
 L'objectif du TP est de construire et de comparer différents type de plongements lexicaux (embeddings de mots) en utilisant les bibliothèques `gensim` et `fasttext`.  
-Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petit taille et un corpus non médical (QUAERO_FrenchPress) de grand taille. 
-Ils seront évaluer sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi). 
+Ces embeddings seront entrainés sur deux corpus différents : corpus en domaine médical (QUAERO_FrenchMed) de petite taille et un corpus non médical (QUAERO_FrenchPress) de grande taille. 
+Ils seront évalués sur la tâche de détection d’entités nommées (NER : Named Entity recognition)  pendant le TP2 (l’après midi). 
 
 Vous êtes invités à utiliser les approches **word2vec** (Cbow, skipgram) et **fasttext** (Cbow).
 
@@ -30,7 +30,7 @@ Vous êtes invités à utiliser les approches **word2vec** (Cbow, skipgram) et *
 - Word2vec : [https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec)
 - Fasttext : [https://fasttext.cc/docs/en/support.html](https://fasttext.cc/docs/en/support.html)
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
-  - Les fichiers `QUAERO_FrenchMed.ospl` et `QUAERO_FrenchPress_ID.ospl` seront utiliser pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces. 
+  - Les fichiers `QUAERO_FrenchMed.ospl` et `QUAERO_FrenchPress_ID.ospl` seront utilisés pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces. 
 
 # Outils nécessaires 
 
@@ -69,7 +69,7 @@ Plusieurs évaluations à faire :
 - Comparer des embeddings (même approche) entrainés sur de corpus différents (médical et non médical) :
     - tester l'impact de données (type et quantité) sur les résultats 
 
-Voici la liste de mots candidates :  `patient, traitement, maladie, solution, jaune`
+Voici la liste de mots candidats :  `patient, traitement, maladie, solution, jaune`
 
 Pour l'évaluation vous pouvez utiliser soit : 
 
