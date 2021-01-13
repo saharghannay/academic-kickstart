@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor at LIMSI, CNRS 
+role: Associate Professor at LISN, CNRS 
 
 # Organizations/Affiliations
 organizations:
