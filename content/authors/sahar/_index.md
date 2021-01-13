@@ -18,13 +18,14 @@ organizations:
   url: "https://www.limsi.fr/en/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks. She is also interested in semantic textual similarity task and its application to dialog system. 
+bio: Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks, semantic information extraction form spoken and writen language and dialog system. 
 
 
 interests:
 - Artificial Intelligence
 - Representation learning
 - Natural /Spoken language processing
+- Information extraction
 - Dialog system
 
 
@@ -82,8 +83,8 @@ user_groups:
 Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, [LIMSI](https://www.limsi.fr/en/) research center, since September 2018.  
 
 She received a PhD in Computer Science from Le Mans University on Septembre 2017.  Her thesis work is part of the ANR [VERA](https://anr.fr/Project-ANR-12-BS02-0006) (AdVanced ERror Analysis for speech recognition) project. 
-During her PhD, she spent a few months as @ visiting researcher at Apple within the Siri Speech team.  
+During her PhD, she spent a few months as a visiting researcher at Apple within the Siri Speech team.  
 
  As a postdoctoral researcher at [LIUM](https://lium.univ-lemans.fr), she worked on neural end-to-end systems for the detection of named entities, speech understanding, as  part of the Chist-Era [M2CR](https://projets-lium.univ-lemans.fr/m2cr/) (Multimodal Multilingual Continuous Representation for Human Language Understanding) project. 
 
-Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks. She is also interested in semantic textual similarity task and its application to dialog system. 
+Her main research interests are continuous representations learning and their application to natural language processing and speech recognition tasks, semantic information extraction form spoken and writen language and dialog system. 

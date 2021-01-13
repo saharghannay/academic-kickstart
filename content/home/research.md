@@ -47,7 +47,7 @@ subtitle = ""
  css_class = ""
 +++
 
-My research interests are continuous representations and their application to natural language processing and speech recognition tasks like ASR error detection, natural/spoken language understanding, etc. I am also interested to sementic textual similarity task and its application to dialog system, in addition to end-to-end neural systems for speech understanding.
+My research interests are continuous representations learning and their application to natural language processing and speech recognition tasks like ASR error detection, natural/spoken language understanding, named entity recognition, etc. I am also interested to end-to-end approaches for speech understanding in addition to sementic textual similarity and its application to dialog system.
 
 # Students
 

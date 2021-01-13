@@ -30,7 +30,7 @@ Vous êtes invités à utiliser les approches **word2vec** (Cbow, skipgram) et *
 - Word2vec : [https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec)
 - Fasttext : [https://fasttext.cc/docs/en/support.html](https://fasttext.cc/docs/en/support.html)
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
-  - Les fichiers `QUAERO_FrenchMed.ospl` et `QUAERO_FrenchPress_ID.ospl` seront utilisés pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces. 
+  - Les fichiers `QUAERO_FrenchMed_traindev.ospl` et `QUAERO_FrenchPress_traindev.ospl` seront utilisés pour l'apprentissage des embeddings. Ils contiennent des corpus au format «une phrase par ligne», avec une segmentation des tokens qui sont séparés par des espaces. 
 
 # Outils nécessaires 
 
