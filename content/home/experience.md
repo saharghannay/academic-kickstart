@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Associate Professor"
-  company = "LIMSI, CNRS, Université Paris-Saclay"
+  company = "CNRS, LISN, Université Paris-Saclay"
   company_url = "https://www.limsi.fr/en/"
   location = "Orsay, Paris"
   date_start = "2018-09-01"
