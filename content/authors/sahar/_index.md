@@ -80,7 +80,7 @@ user_groups:
 - Visitors
 ---
 
-Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, [LIMSI](https://www.limsi.fr/en/) research center, since September 2018.  
+Sahar Ghannay is an associate professor at  Université Paris-Saclay, in the CNRS, [LISN](https://www.limsi.fr/en/) research center, since September 2018.  
 
 She received a PhD in Computer Science from Le Mans University on Septembre 2017.  Her thesis work is part of the ANR [VERA](https://anr.fr/Project-ANR-12-BS02-0006) (AdVanced ERror Analysis for speech recognition) project. 
 During her PhD, she spent a few months as a visiting researcher at Apple within the Siri Speech team.  
