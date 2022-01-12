@@ -1,7 +1,7 @@
 ---
 title: "Semantic Representations"
 summary: course for MSc level (M2) about semantic representations at the Université Paris-Saclay, IUT Orsay, Computer Science Department
-url_pdf: "https://github.com/saharghannay/lectures/blob/master/Master%20ISD/Cours_MasterISD.pdf"
+url_pdf: "https://github.com/saharghannay/lectures/blob/master/Master%20ISD/Cours_Master_EN2022"
 url_slides: "slides.pdf"
 publishDate: "2018-10-05T00:00:00Z"
 ---
