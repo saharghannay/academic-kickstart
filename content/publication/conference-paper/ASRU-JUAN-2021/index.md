@@ -7,4 +7,5 @@ abstract: "We propose to address online speaker diarization as a combination of 
 featured: true
 publication: "*IEEE Automatic Speech Recognition and Unserstanding Workshop (ASRU 2021)*"
 url_pdf: "https://hal.archives-ouvertes.fr/hal-03375330/document"
+url_slides: "slides.pdf"
 ---

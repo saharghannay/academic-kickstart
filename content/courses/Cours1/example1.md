@@ -91,7 +91,7 @@ You are invited to use the **word2vec** (Cbow, skipgram) and **fasttext** (Cbow)
 - Word2vec : [https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec](https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec)
 - Fasttext : [https://fasttext.cc/docs/en/support.html](https://fasttext.cc/docs/en/support.html)
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
-  - The files `QUAERO_FrenchMed.ospl` and` QUAERO_FrenchPress_ID.ospl` will be used for learning embeddings. They contain corpora in “one sentence per line” format, with a segmentation of the tokens which are separated by spaces.
+  - The files `QUAERO_FrenchMed_traindev.ospl` et `QUAERO_FrenchPress_traindev.ospl` will be used for learning embeddings. They contain corpora in “one sentence per line” format, with a segmentation of the tokens which are separated by spaces.
 
 # Requirements 
 

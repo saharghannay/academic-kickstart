@@ -1,4 +1,4 @@
-git submodule add -f -b master https://github.com/saharghannay/saharghannay.github.io.git
+git submodule add -f -b master https://github.com/saharghannay/saharghannay.github.io.git public
 
 git add .
 git commit -m "Initial commit"
