@@ -46,7 +46,7 @@ Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour in
   conda create -n myenv python=3.6
   Conda activate myenv
 # Installer les outils nécessaires pour la création de plongements lexicaux
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 ```
 

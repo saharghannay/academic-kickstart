@@ -51,6 +51,8 @@ My research interests are continuous representations learning and their applicat
 
 # Students
 
+- Pierre Lepagnol, PHD student, "Traitement automatique des langues dans le contexte de données dégradées et mal-supervisées"
+- Gaëlle Laperriere, PHD student, "Compréhension de la parole dans un contexte multilingue"
 - [Juan Manuel Coria](https://juanmc2005.github.io/), PHD student, "Active representation learning"
 - Valentin Carpentier, PHD student, "A Study of transfer learning approaches for entity linking on new domain and generated synthetic data" 
 
