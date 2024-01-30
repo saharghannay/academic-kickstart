@@ -51,8 +51,11 @@ My research interests are continuous representations learning and their applicat
 
 # Students
 
-- Pierre Lepagnol, PHD student, "Traitement automatique des langues dans le contexte de données dégradées et mal-supervisées"
-- Gaëlle Laperriere, PHD student, "Compréhension de la parole dans un contexte multilingue"
+- Pierre Lepagnol, PHD student, "Automatic language processing in the context of degraded and poorly supervised data"
+- Adjali Omar, Post-doc, "Multimedia question Answering", 
+- François Buet, Post-doc, "Identification of gendered expressions using vector representations
+on a corpus of speech transcription in the media" as part of GEM Project
+- Gaëlle Laperriere, PHD student, "Knowledge injection in the representation of multimedia entities" as part of the MeerQat project"
 - [Juan Manuel Coria](https://juanmc2005.github.io/), PHD student, "Active representation learning"
 - Valentin Carpentier, PHD student, "A Study of transfer learning approaches for entity linking on new domain and generated synthetic data" 
 
