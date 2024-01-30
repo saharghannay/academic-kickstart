@@ -7,6 +7,3 @@ abstract: "Knowledge transfer between neural language models is a widely used te
 featured: true
 publication: "*First Workshop on Performance and Interpretability Evaluations of Multimodal, Multipurpose, Massive-Scale Models*"
 ---
-
-
-
