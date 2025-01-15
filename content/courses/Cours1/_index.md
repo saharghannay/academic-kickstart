@@ -14,7 +14,7 @@ menu:
     weight: 1
 ---
 Master 2 {{% staticref "files/Cours_Master_EN.pdf" "newtab" %}} course {{% /staticref %}}, Université Paris-Saclay, IUT Orsay, Computer Science Department
-  - 2018-2024 
+  - 2018-2025
   - MSc level (M2)
   - Introduction to distributed representations, recent approaches, evaluation approaches
-  - In lab sessions, students will learn how to train word embeddings (TP1) and use them for named entity recognition (TP2) 
+  - In lab sessions, students will learn how to train and evaluate word embeddings  (TP1) and use the word embeddings and trasformers models for named entity recognition (TP2) 

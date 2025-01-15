@@ -18,40 +18,26 @@ weight: 2
 # Objectif
 
 
-L'objectif du TP est de construire et de comparer différents modèles de reconnaissance d'entités nommées à partir des plongements lexicaux (embeddings) construits lors du TP 1. Nous utiliserons un modèle neuronal LSTM implémenté par Ma et Hovy  
+L'objectif du TP est d'évaluer la performance des embeddings appris dans le TP1 ainsi qu'un modèle Transformer (BERT) sur la tâche d'entités nommées (NER) dans le domaine médicale. 
+Un modèle NER par type d'embeddings sera appris et évalué.
 
-Vous êtes invités à construire plusieurs modèles pour chaque corpus de travail (voir ci-dessous) en faisant varier les paramètres suivants afin d’observer leur impact sur les performances de reconnaissance d’entités :
-- taille du jeu d’entraînement ;  
-- taille du corpus utilisé pour créer les plongements lexicaux
-- modèle des plongements lexicaux
-- adéquation entre le domaine du corpus utilisé pour la reconnaissance d’entités et les plongements. 
- 
+  
+
 # Ressources
 
-- L'outils `https://github.com/XuezheMax/NeuroNLP2`
+- Les scripts {{% staticref "files/scripts.zip" "newtab" %}} à adapter pour la tâche de classification de séquence, un pour exécuter les modèles LSTM et CNN, un autre pour exécuter les modèles Transformer (BERT) 
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
 
 # Outils nécessaires
 
-Veuillez installer cet outil dans votre environnement de travail.
+Veuillez installer les dépendances nécessaires pour executer les scripts
 
 
-```
-# Installer l'outil nécessaire pour la reconnaissance d'entités nommées
-  git clone https://github.com/XuezheMax/NeuroNLP2.git
-  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-  pip install overrides
-  pip uninstall scipy
-  pip --no-cache-dir install scipy==1.1
-  cd NeuroNLP2
-  pip install .
-
-```
 
 # Présentation rapide des corpus : 
-Nous utiliserons deux corpus annotés en entités, l’un issu du domaine médical (QUAERO_FrenchMed) de petit taille et l'autre issu de la presse (QUAERO_FrenchPress) de plus grande taille. 
+Nous utiliserons un corpus annoté en entités issu du domaine médical (QUAERO_FrenchMed) de petit taille.
 
-Ces corpus vous sont fournis dans un format similaire au format conll : ils contiennent cinq colonnes séparées par des espaces. 
+Ce corpus vous est fourni dans un format similaire au format conll : il contient cinq colonnes séparées par des espaces. 
 
 Chaque mot correspond à une ligne et les phrases sont séparées par une ligne vide. 
 Les colonnes correspondent dans l'ordre à l'index du mot dans la phrase, le mot, deux autres colonnes qui ne seront pas utilisées et la dernière colonne représente l'étiquette d'entité nommée.
@@ -61,62 +47,42 @@ Si deux entités de même type se suivent, le premier mot de la seconde aura pou
 L’étiquette O indique que le mot ne fait pas partie d’une entité.
 
 # Création de modèles
+Afin de réaliser le travail il faut adapter les scripts pour la tâche de NER (étiquetage de séquence): principalement le chargement des données, la fonction objective (si besoin)
+- En plus de cela, dans le script cnn_classification.py, les embeddings sont initialisés aléatoirement, il faut faire les modifications nécessaires pour les initialisés avec les embeddings appris dans le TP1.
+- Dans le script transformer_classification il faut changer 'AutoModelForSequenceClassification'  par 'AutoModelForTokenClassification' 
+- Les résultats seront évaluer en termes de rappel, précision et F1
 
-La première étape de votre travail va être de créer des scripts shell permettant d’entraîner l'outil sous différentes configurations: 
-
-- Utiliser comme base de travail le script `NeuroNLP2/experiments/scripts/run_ner_conll03.sh` 
-
-Ajuster les paramètres concernant : le type de plongements, le fichier contenent votre vecteur de plongements,  --embedding_dict le répertoire de sortie désiré --model_path , le corpus --train  --dev --test
-
-- Pour les besoins du TP (temps de calcul des modèles), vous pouvez ajuster certains paramètres dans la configuration du modèle : diminuer le nombre d’epoch --num_epochs 20, et de l’outil (script `NeuroNLP2/experiments/ configs/ner/conll03.json` ; par exemple, "crf": false,  "hidden_size": 128, "out_features": 64,). 
- 
 # Questions
-- Quel modèle obtient les meilleures performances sur chacun des corpus ?  
-- Voyez vous des différences entre les deux corpus ? 
-- Comparer ces résultats avec une méthode « baseline » simple à base de règles
-Pour cela, vous pourrez utiliser le script Perl `NeuroNLP2/experiments/eval/conll03eval.v2`
+- Quel modèle obtient les meilleures performances ?  
+- Voyez vous des différences entre les embeddings appris sur deux corpus différents de TP1 ? 
+- Comparer ces résultats avec un modèle Transformer.
 
-Pour aller plus loin : 
-- Comparer le corpus QUAERO_FrenchMed utilisé en TP avec celui distribué lors de la campagne CLEF eHealth 2016 : `https://quaerofrenchmed.limsi.fr/` Constatez vous des différences ? Si oui, lesquelles ?
-- Les résultats obtenus en TP peuvent-ils être comparés avec ceux obtenus lors de la campagne d’évaluation CLEF eHealth ? Pourquoi ? 
 
  
 ------------------
 
 # Objective
 
-The objective of this lab session is to build and compare different models of named entity recognition using the word embeddings created during lab session 1. We will use the biLSTM model implemented by Ma and Hovy
+The objective of the lab session is to evaluate the performance of the embeddings learned in TP1 as well as a Transformer model (BERT) on the named entity task (NER) in the medical domain.
+A NER model for each embeddings type will be learned and evaluated.
 
-In this lab session, you should attempt to create several models for each dataset (see below). You may observe the impact of the following parameters on anmed entity recognition performance:
-- size of the training set ;  
-- size of the corpus used to create the word embeddings ;
-- word embedding model ;
-- consistency between the domain of the corpus used for entity recognition and the word embeddings. 
 
 
 # Ressources
 
-- NER tool `https://github.com/XuezheMax/NeuroNLP2`
+- The scripts {{% staticref "files/scripts.zip" "newtab" %}} to be adapted for the sequence classification task, one to run the LSTM and CNN models, another to run the Transformer (BERT) models
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
 
 # Requirements 
 
-Please install this tool in your conda environement.
+Please install the dependencies to run the scripts
 
-```
-# Install the necessary tool for named entity recognition  git clone https://github.com/XuezheMax/NeuroNLP2.git
-  pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-  pip install overrides
-  pip uninstall scipy
-  pip --no-cache-dir install scipy==1.1
-  cd NeuroNLP2
-  pip install .
-```
+
 
 # Quick overview of the datasets : 
-We will use two datasets with named entity annotations : a small medical corpus (QUAERO_FrenchMed) and a larger news corpus (QUAERO_FrenchPress). 
+We will use a small medical corpus (QUAERO_FrenchMed) with named entity annotations. 
 
-The datasets are provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line. 
+The dataset is provided in conll-like format and contain five columns separated by white spaces. Each word (or token) corresponds to a line and sentences are separated by an empty line. 
 
 The columns correspond to: the token index within the sentence, the token, two columns that will not be used in this lab and finally, the last column contains the named entity tag.
 
@@ -124,20 +90,13 @@ Named entity tags are in the I-TYPE format, which indicates that the word is par
 
 # NER models training
 
-The first step of your work will be to create shell scripts allowing you to train the tool in different configurations:
-- Use the `NeuroNLP2/experiments/scripts/run_ner_conll03.sh` script as a working base
+In order to do the work, it is necessary to adapt the scripts for the NER task (token classification): mainly the data loading, the objective function (if needed)
+- In addition to that, in the cnn_classification.py script, the embeddings are initialized randomly, it is necessary to make the modifications to initialize them with the embeddings learned in TP1.
+- In the transformer_classification script, it is necessary to change 'AutoModelForSequenceClassification' to 'AutoModelForTokenClassification'
+- The results will be evaluated in terms of recall, precision and F1
 
-Adjust the parameters concerning: the type of embedding, the file contains your vector of embeddings, --embedding_dict the desired output directory --model_path, the corpus --train --dev --test
-- Du to time constraint, you can adjust certain parameters in the model configuration: decrease the number of epoch --num_epochs 20, and of the tool (`NeuroNLP2 script/experiments/configs/ner/conll03.json`; for example, "crf": false, "hidden_size": 128, "out_features": 64,).
-     
 # Questions 
  
 - Which model provides the best performance on each dataset?  
-- Are there differences between the datasets ? 
-- Compare the results of the models to a simple rule-based baseline method
-You may use this Perl script : NeuroNLP2/experiments/eval/conll03eval.v2 
-
-Going further : 
-- Compare the QUAERO_FrenchMed dataset used in this lab session with the one distributed in the CLEF eHealth 2016 shared task : https://quaerofrenchmed.limsi.fr/ Do you see any différence ? Please, describe. 
-- Can the results obtained in this lab session be directly compared to those of the CLEF eHealth shared task participants ? Please, explain.   
-
+- Do you see any differences between the embeddings learned on two different corpora of TP1?
+- Compare these results with a Transformer model.

@@ -34,22 +34,15 @@ Vous êtes invités à utiliser les approches **word2vec** (Cbow, skipgram) et *
 
 # Outils nécessaires 
 
-Avant de commencer le TP, Je vous invite à suivre les étapes suivantes pour installer les outils :   
+Il est recommandé d'utiliser google colab pour travailler le TP. 
+Avant de commencer il faut installer les outils nécessaires.  
 
 ```
-# Créer l'environnement de travail «miniconda»
-# Télécharger le fichier et l'installer comme suit :
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Créer l'environnement et l'activer
-  conda create -n myenv python=3.6
-  Conda activate myenv
-# Installer les outils nécessaires pour la création de plongements lexicaux
+
+# Installer les outils nécessaires pour la création des embeddings
   pip install gensim 
   pip install fasttext 
 ```
-
 # Apprentissage des embeddings de mot
 
 La première étape de votre travail va être de créer des scripts python et bash permettant d'apprendre les différentes approches d’embeddings **word2vec** (Cbow, skipgram) et **fasttext** (Cbow) sur les deux corpus médical et non médical **QUAERO_FrenchMed** et **QUAERO_FrenchPress** (au total 6 embeddings). 
@@ -95,19 +88,11 @@ You are invited to use the **word2vec** (Cbow, skipgram) and **fasttext** (Cbow)
 
 # Requirements 
 
-Before starting, I invite you to follow the next steps to install the tools:
-
+It is recommended to use Google Colab to work on the TP. Before starting, you must install the necessary tools.
 ```
-# Create the "miniconda" environment
-# Download the file and install it as follows:
- wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
- chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-# Create the environment and activate it
-  conda create -n myenv python=3.6
-  Conda activate myenv
+
 # Install the required tools to train word embeddings
-  pip install gensim==0.12.0
+  pip install gensim 
   pip install fasttext 
 ```
 
