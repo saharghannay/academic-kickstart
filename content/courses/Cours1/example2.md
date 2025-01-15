@@ -25,7 +25,7 @@ Un modèle NER par type d'embeddings sera appris et évalué.
 
 # Ressources
 
-- Les scripts {{% staticref "files/scripts.zip" "newtab" %}} à adapter pour la tâche de classification de séquence, un pour exécuter les modèles LSTM et CNN, un autre pour exécuter les modèles Transformer (BERT) 
+- Les {{% staticref "files/scripts.zip" "newtab" %}} scripts {{% /staticref %}} à adapter pour la tâche de classification de séquence, un pour exécuter les modèles LSTM et CNN, un autre pour exécuter les modèles Transformer (BERT) 
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
 
 # Outils nécessaires
