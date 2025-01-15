@@ -70,7 +70,7 @@ A NER model for each embeddings type will be learned and evaluated.
 
 # Ressources
 
-- The scripts {{% staticref "files/scripts.zip" "newtab" %}} to be adapted for the sequence classification task, one to run the LSTM and CNN models, another to run the Transformer (BERT) models
+- The {{% staticref "files/scripts.zip" "newtab" %}} scripts {{% /staticref %}} to be adapted for the sequence classification task, one to run the LSTM and CNN models, another to run the Transformer (BERT) models
 - Corpus: https://perso.limsi.fr/neveol/TP_ISD2020.zip
 
 # Requirements 
