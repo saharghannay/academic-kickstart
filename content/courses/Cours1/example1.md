@@ -73,9 +73,8 @@ Pour l'évaluation vous pouvez utiliser soit :
 
 # Objective
 
-The objective of this lab session is to build and compare different word embeddings aproaches using the `gensim` and` fasttext` libraries.
-These embeddings will be trained on two different corpora: a small medical corpus (QUAERO_FrenchMed) and a large non-medical corpus (QUAERO_FrenchPress).
-They will be evaluated on the NER: Named Entity recognition task during the second pratical session TP2 (afternoon).
+The objective of this lab session is to build and compare different word embedding approaches using the `gensim` and `fasttext` libraries. 
+These embeddings will be trained on two different corpora: a small medical corpus (QUAERO_FrenchMed) and a large non-medical corpus (QUAERO_FrenchPress). They will be evaluated on the NER: Named Entity recognition task during the second practical session.
 
 You are invited to use the **word2vec** (Cbow, skipgram) and **fasttext** (Cbow) approaches.
 
